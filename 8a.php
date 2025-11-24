@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>Visitor Counter</title>
@@ -10,17 +9,14 @@
             text-align: center;
             margin-top: 50px;
         }
-
         h1 {
             color: #333;
         }
-
         p {
             font-size: 1.2em;
         }
     </style>
 </head>
-
 <body>
     <?php
     $file = 'counter.txt';
@@ -30,5 +26,6 @@
     <h1>Visitor Counter</h1>
     <p>Number of Visitors: <strong><?php echo $count; ?></strong></p>
 </body>
+
 
 </html>
